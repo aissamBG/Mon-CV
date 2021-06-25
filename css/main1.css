@@ -1,0 +1,181 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    border:1px solid #424580;
+    margin: 25px 25px 10px;
+}
+.size40{
+    font-size:32px;
+}
+.size20{
+    font-size:20px;;
+}
+.colorBlueDark{
+    color:#283645;
+}
+.colorBlueLight{
+    color:#1490D7;
+}
+.colorOrange{
+    color: #ff8000;
+}
+.colorWhite{
+    color:white;
+}
+.text-center{
+    text-align:center;
+}
+.bg-colorblue3{
+    background-color:#424580;
+}
+.bg-colorbluelight{
+    background-color:#1490D7;
+}
+h2{
+    padding:0px;
+    margin: 30px 0px;
+}
+.borderBottom{
+    border-bottom:1px solid #283645;
+
+}
+.gauche{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+/*
+*****HEADER*****
+*/
+.header {
+    display:flex;
+    align-items:center ;
+    text-align:center ;
+    font-weight: 100;
+}
+.header .photoPers, .header .infoPers{
+    width:33.3%;
+}
+
+.header .postRecherche{
+    flex:auto;
+}
+.header .photoPers img{
+    height:170px;
+    width: 50%;
+    border: 1px solid #424580;
+}
+/*
+****FIN HEADER****
+*/
+/*
+***FOOTER
+*/
+.footer{
+    margin-top:50px;
+    font-weight: 100;
+}
+/*
+**FIN FOOTER
+*/
+/*
+
+*/
+/*
+***CORP
+*/
+.corp{
+    margin:0% 1%;
+}
+.domaineCompetence table td, .domaineCompetence table th{
+    padding:10px 20px;
+    border:1px solid  #283645;
+    width: 33.3%;
+}
+.domaineCompetence table{
+    width: 100%;;
+}
+.col1{
+    width:20%;
+}
+.col2{
+    width:80%;
+}
+label{
+    display:block;
+    float: left;
+    width:20%;
+    text-align:right;
+    padding-right:20px;
+}
+.button{
+    margin-left:21.6%;
+    width:200px;
+}
+.inline{
+    display: inline-block;
+}
+.center{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.withoutBtn{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.facebook{
+    color:#3b5998;
+    box-shadow: 0 0 8px #000;
+    border-radius: 50%;
+}
+.github{
+    box-shadow: 0 0 8px #000;
+    border-radius: 50%;
+}
+.email{
+    color: #EA4335;
+}
+.linkedin{
+    color:#0077b5;
+}
+.link-rapport,.link-github{
+    text-decoration: none;
+    margin-left: 1%;
+    transition: .3s;
+}
+.link-rapport:hover,.link-github:hover{
+    color: #f00;
+}
+/*
+**FIN CORP
+*/
+@media (max-width:780px){
+    .size40{
+        font-size:20px;
+    }
+    .size20{
+        font-size:10px;;
+    }
+    .header .photoPers img{
+        height:100px;
+    }
+    .col1{
+        width:30%;
+        display: none;
+    }
+    .col2{
+        width:70%;
+    }
+}
+@media (min-width:780px) and (max-width:1280px)
+{
+    .col1{
+        width:35%;
+    }
+    .col2{
+        width:65%;
+    }
+}
